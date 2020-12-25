@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <title>ZooKule</title>
+</head>
+<body >
+    <div class="head-container">
+        <header >
+          
+            <h2><a href="#">ZooKule</a></h2>
+            <nav>
+                <ul>
+                    <a href="#"><li>Home</li></a>
+                    <a href="#about"><li>About</li></a>
+                    <a href="#features"><li>Features</li></a>
+                   
+                </ul>
+            </nav>
+       
+        </header>
+       </div>
+    <!-- <div class="container" > -->
+    <div class="container" >
+        
+       
+
+    <div class="main-container" >
+     
+   
+
+    <section class="call-container grid-2">
+        <div class="call-action-text">
+            <h1>Zookule Products</h1>
+            <h2>Seat Belt Buckle Holder</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis repellendus natus eos consequuntur quae. Laborum magni, provident quidem officiis maiores assumenda deleniti blanditiis temporibus aliquam quo tenetur exercitationem. Harum, dolor.
+
+            </p>
+            <form  action="" >
+                <input required type="email"  id="email" >
+                <input onclick="subscribe();" type="button" value="Subscribe">
+            </form>
+            <div style="display: none;" id="sub">
+                <p>Thanks for subscribing</p>
+            </div>
+
+
+
+        </div>
+        <div >
+            <img class="call-action-image" src="Untitled.png">
+
+        </div>
+
+    </section>
+</div>
+</div>
+    
+<div class="main-container">
+    <section id="about" class="about-container">
+        
+            <h1>About Our Product</h1>
+        
+            <div class="about-container-info">
+                
+                <!-- <img class="zookule-image" src="42593371_2041071189246564_6307687110908313600_o.jpg"> -->
+                <img class="zookule-image" src="zook1.jpg">
+                <img class="zookule-image2"  src="zook2.jpg">
+                
+                
+                
+                
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quidem quis aspernatur ea enim porro? Non similique veritatis sed iusto tenetur eligendi perspiciatis placeat sint, autem soluta architecto dolore! Quae sit inventore iste officia. Eveniet voluptate sunt animi id laborum.</p>
+
+        
+        
+       
+    </section>
+    
+
+    <section id="features" class="features-container ">
+        <h2>The must have car accessory for growing families</h2>
+        <div class="grid-3">
+            <div class="card">
+                <i class="far fa-thumbs-up"></i>
+                <h3>Easy to Use</h3>
+                <p>The Zookule seatbelt buckle holder works on floppy seatbelt latches. If it requires digging in between your seats or two hands to buckle up then this tool will work great for you. This buckle holder works with many car types.</p>
+    
+            </div>
+            <div class="card">
+                <i class="far fa-star"></i>
+                <h3>Best Quality</h3>
+                <p>This car seat belt buckle holder is made from the best and most premium quality silicone. Flexible and durable and silicone allows it to tightly attach to your car seat belt buckle holding it in the most upright position.</p>
+    
+            </div>
+            <div class="card">
+                <i class="far fa-clock"></i>
+                <h3>Save Time</h3>
+                <p>No more struggling to Prop the seatbelt receiver. Zookule provides you with best seat belt buckle holder which is guaranteed to make life easier for your growing familyd hdgdgdg fdgfddg dgfdfdv fhfhn fhg fhgf hgfhg</p>
+    
+            </div>
+        </div>
+        
+        
+    </section>
+   
+   
+    </div>
+
+<section>
+    <footer>
+        <div class="footer-container">
+            
+            <ul>
+                <a href="https://www.facebook.com/Zookule/" target="_blank"><li><i class="fab fa-facebook-square"></i></li></a>
+                <a href="https://www.facebook.com/Zookule/" target="_blank"><li><i class="fab fa-instagram"></i></i></li></a>
+                <a><li><i class="fab fa-pinterest-square"></i></li></a>
+                <a href="https://www.amazon.com/gp/product/B07DN8SZ82" target="_blank"><li><i class="fab fa-amazon"></i></li></a>
+            </ul>
+            <p>&copy; 2019 Zookule Products</p>
+        </div>
+
+    </footer>
+
+</section>
+    
+</body>
+
+</html>
+
+<script>
+    function subscribe(){
+
+        var emailReg = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+
+        
+        //var submit = document.getElementById("sub");
+
+        var email = document.getElementById('email').value;
+
+        if(email != "" && emailReg.test(email)){
+            document.getElementById('sub').style.display = "block";
+        }
+        else{
+            //document.getElementById('sub').innerHTML = "Invalid email";
+        }
+
+        
+
+       
+        
+            //document.getElementById('sub').style.display = "none";
+  
+
+
+
+        
+    }
+
+  
+
+</script>
