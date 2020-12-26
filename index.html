@@ -17,11 +17,12 @@
         <header >
           
             <h2><a href="#">ZooKule</a></h2>
-            <nav>
-                <ul>
+            <nav >
+                <ul class="burgerMenu" id="burger">
                     <a href="#"><li>Home</li></a>
                     <a href="#about"><li>About</li></a>
                     <a href="#features"><li>Features</li></a>
+                    <a href="javascript:void(0);" class="burger" onclick="hamburgerToggle();"><i class="fas fa-bars"></i></a>
                    
                 </ul>
             </nav>
@@ -35,14 +36,18 @@
 
     <div class="main-container" >
      
-   
+ 
 
-    <section class="call-container grid-2">
+    <section class="call-container ">
+        <h1>Zookule Products</h1>
+        <div class="grid-2">
+
+    
         <div class="call-action-text">
-            <h1>Zookule Products</h1>
+            
             <h2>Seat Belt Buckle Holder</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis repellendus natus eos consequuntur quae. Laborum magni, provident quidem officiis maiores assumenda deleniti blanditiis temporibus aliquam quo tenetur exercitationem. Harum, dolor.
+                No more struggling to Prop the seatbelt receiver. Zookule provides you with best seat belt buckle holder which is guaranteed to make life easier for your growing family. If it requires digging in between your seats or two hands to buckle up then this tool will work great for you.
 
             </p>
             <form  action="" >
@@ -60,6 +65,7 @@
             <img class="call-action-image" src="public/Untitled.png">
 
         </div>
+    </div>
 
     </section>
 </div>
@@ -94,19 +100,19 @@
             <div class="card">
                 <i class="far fa-thumbs-up"></i>
                 <h3>Easy to Use</h3>
-                <p>The Zookule seatbelt buckle holder works on floppy seatbelt latches. If it requires digging in between your seats or two hands to buckle up then this tool will work great for you. This buckle holder works with many car types.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis nulla quae beatae odio ullam sequi id cupiditate debitis alias asperiores.</p>
     
             </div>
             <div class="card">
                 <i class="far fa-star"></i>
                 <h3>Best Quality</h3>
-                <p>This car seat belt buckle holder is made from the best and most premium quality silicone. Flexible and durable and silicone allows it to tightly attach to your car seat belt buckle holding it in the most upright position.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laboriosam et tempora. Doloribus saepe, ut consequuntur possimus quaerat dolorem obcaecati.</p>
     
             </div>
             <div class="card">
                 <i class="far fa-clock"></i>
                 <h3>Save Time</h3>
-                <p>No more struggling to Prop the seatbelt receiver. Zookule provides you with best seat belt buckle holder which is guaranteed to make life easier for your growing familyd hdgdgdg fdgfddg dgfdfdv fhfhn fhg fhgf hgfhg</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum facere laboriosam recusandae quam tenetur enim, doloribus praesentium et quod error.</p>
     
             </div>
         </div>
@@ -155,18 +161,22 @@
             //document.getElementById('sub').innerHTML = "Invalid email";
         }
 
-        
 
-       
-        
-            //document.getElementById('sub').style.display = "none";
-  
-
-
-
-        
     }
 
+    
+
   
 
+</script>
+<script>
+    function hamburgerToggle(){
+        var burger = document.getElementById('burger');
+        if(burger.className === "burgerMenu"){
+            burger.className += " responsive"
+        }
+        else{
+            burger.className = "burgerMenu";
+        }
+    }
 </script>
