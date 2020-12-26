@@ -1,5 +1,5 @@
 # Zookule
 
-Site uses css properties such as Grid and Flex
+Landing Page/Product page For Zookule Products
 
-Landing Page/Product info For Zookule Products
+Websiste is fully responsive, uses css properties such as Grid and Flex.

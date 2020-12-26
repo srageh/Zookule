@@ -553,6 +553,10 @@ footer{
         
     }
 
+    .about-container p{
+        font-size: 1em;
+    }
+
     .features-container h2{
         font-size: 1.3em;
         text-align: center;
