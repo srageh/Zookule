@@ -199,7 +199,7 @@ input[type=button]{
     margin: 1.8em 0;
     font-weight: 700;
     font-size: 1.7em;
-    color: rgb(65, 65, 65);
+    color: black;
 }
 
 .grid-3{
@@ -281,7 +281,7 @@ input[type=button]{
     margin: 1.2em 0;
     font-weight: 700;
     font-size: 1.7em;
-    color: rgb(65, 65, 65);
+    color: black;
    
 }
 
@@ -464,7 +464,7 @@ footer{
   
         font-size: 2.5em;
         line-height: 1;
-        margin-top: 4em;
+        margin-top: 5em;
        
     }
        
@@ -525,7 +525,7 @@ footer{
 
     .container{
   
-        height: 70vh;
+        height: 72vh;
     }
     .main-container {
     
@@ -690,7 +690,7 @@ footer{
 
 /* Tablet view when hamburger clicked */
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 750px)and (min-width:100px){
     
    
 
