@@ -525,7 +525,7 @@ footer{
 
     .container{
   
-        height: 72vh;
+        height: 60vh;
     }
     .main-container {
     
@@ -543,9 +543,7 @@ footer{
      
         
     }
-    .about-container{
-        margin: 3em;
-    }
+    
 
     .about-container h1{
         margin:0;
@@ -571,13 +569,15 @@ footer{
     
 
 
-    .zookule-image {
+    .zookule-image2 {
     
         display: none;
   
     }
-    .zookule-image2{
-        display: none;
+    .zookule-image{
+        
+        width: 400px;
+        height: 350px;
     }
     
 .grid-2{
